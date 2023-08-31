@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T11:50:20 IST" name="Suite" finished-at="2023-08-31T11:53:19 IST" duration-ms="178560">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T11:50:20 IST" name="Test" finished-at="2023-08-31T11:53:19 IST" duration-ms="178560">
+      <class name="commonScripting.SearchProduct">
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:20 IST" name="beforeConfig" finished-at="2023-08-31T11:50:25 IST" duration-ms="5260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method signature="catogaryBrowseView()[pri:1, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:25 IST" name="catogaryBrowseView" finished-at="2023-08-31T11:50:29 IST" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catogaryBrowseView -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:29 IST" name="afterConfig" finished-at="2023-08-31T11:50:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:29 IST" name="beforeConfig" finished-at="2023-08-31T11:50:52 IST" duration-ms="23582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method signature="sortProductsTest()[pri:2, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:52 IST" name="sortProductsTest" finished-at="2023-08-31T11:50:58 IST" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProductsTest -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:58 IST" name="afterConfig" finished-at="2023-08-31T11:50:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:58 IST" name="beforeConfig" finished-at="2023-08-31T11:51:29 IST" duration-ms="30954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method signature="searchProductAndCheckAvailability()[pri:3, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:29 IST" name="searchProductAndCheckAvailability" finished-at="2023-08-31T11:51:35 IST" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductAndCheckAvailability -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:35 IST" name="afterConfig" finished-at="2023-08-31T11:51:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:35 IST" name="beforeConfig" finished-at="2023-08-31T11:52:49 IST" duration-ms="73731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method signature="addToCart()[pri:4, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:52:49 IST" name="addToCart" finished-at="2023-08-31T11:53:00 IST" duration-ms="10777" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Add to cart ']"}
+  (Session info: chrome=116.0.5845.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [547a37bf3958bb3e78c1fcc06fc42c44, findElement {using=xpath, value=//*[text()=' Add to cart ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 547a37bf3958bb3e78c1fcc06fc42c44]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Add to cart ']"}
+  (Session info: chrome=116.0.5845.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [547a37bf3958bb3e78c1fcc06fc42c44, findElement {using=xpath, value=//*[text()=' Add to cart ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 547a37bf3958bb3e78c1fcc06fc42c44
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at commonScripting.SearchProduct.addToCart(SearchProduct.java:105)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:00 IST" name="afterConfig" finished-at="2023-08-31T11:53:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:00 IST" name="beforeConfig" finished-at="2023-08-31T11:53:07 IST" duration-ms="7525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method signature="applyVouchersTest()[pri:5, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:07 IST" name="applyVouchersTest" finished-at="2023-08-31T11:53:19 IST" duration-ms="11447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyVouchersTest -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:19 IST" name="afterConfig" finished-at="2023-08-31T11:53:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+      </class> <!-- commonScripting.SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
