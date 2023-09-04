@@ -10,11 +10,11 @@ public class AllCategories_Elements {
 	WebDriver driver;
 	
 //Identification	
-	@FindBy(xpath = "//a[text()=' Most Popular ']")
-	private WebElement mostPopularIcon;
+	@FindBy(xpath = "//a[text()=' Panasonic Store ']")
+	private WebElement panasonicStoreIcon;
 	
-	@FindBy(xpath = "//a[text()=' Top Trending ']")
-	private WebElement topTrendingIcon;
+	@FindBy(xpath = "//a[text()=' Back To School ']")
+	private WebElement backToSchoolIcon;
 	
 	@FindBy(xpath = "//a[text()=' Office Automation ']")
 	private WebElement officeAutomationIcon;
@@ -31,11 +31,11 @@ public class AllCategories_Elements {
 	public WebDriver getDriver() {
 		return driver;
 	}
-	public WebElement getMostPopularIcon() {
-		return mostPopularIcon;
+	public WebElement getPanasonicStoreIcon() {
+		return panasonicStoreIcon;
 	}
-	public WebElement getTopTrendingIcon() {
-		return topTrendingIcon;
+	public WebElement getBackToSchoolIcon() {
+		return backToSchoolIcon;
 	}
 	public WebElement getOfficeAutomationIcon() {
 		return officeAutomationIcon;
@@ -46,11 +46,11 @@ public class AllCategories_Elements {
 	
 //Actions Method-Business Logic
 	
-	public void clickOnMostPopularIcon() {
-		mostPopularIcon.click();
+	public void clickOnPanasonicStoreIcon() {
+		panasonicStoreIcon.click();
 	}
-	public void clickOnTopTrendingIcon() {
-		topTrendingIcon.click();
+	public void clickOnBackToSchoolIcon() {
+		backToSchoolIcon.click();
 	}
 	public void clickOnOfficeAutoamtionIcon() {
 		officeAutomationIcon.click();

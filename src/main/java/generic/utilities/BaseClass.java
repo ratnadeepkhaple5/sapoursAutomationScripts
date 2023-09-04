@@ -32,9 +32,9 @@ public class BaseClass {
 	public void bcConfig() throws IOException, InterruptedException{
 		//reading data from propertyFiles
 		String BROWSER =pUtil.readDataFromPropertyFile("browser") ;
-	//	String URL =pUtil.readDataFromPropertyFile("bay");
+		String URL =pUtil.readDataFromPropertyFile("BAY");
 	//	String URL =pUtil.readDataFromPropertyFile("lulu");
-		String URL =pUtil.readDataFromPropertyFile("altannaf");
+	//	String URL =pUtil.readDataFromPropertyFile("altannaf");
 		
 		if (BROWSER.equalsIgnoreCase("chrome")){
 			ChromeOptions options=new ChromeOptions();

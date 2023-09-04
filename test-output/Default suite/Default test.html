@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 31 11:48:26 IST 2023</td>
+<td>Started on:</td><td>Mon Sep 04 12:34:20 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5477 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25563 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='commonScripting.SearchProduct.catogaryBrowseView()'><b>catogaryBrowseView</b><br>Test class: commonScripting.SearchProduct</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=116.0.5845.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+<td title='BAY_HomePageScenario.NavigationBarScenariosTest.clickOnDigitalCardsIcon()'><b>clickOnDigitalCardsIcon</b><br>Test class: BAY_HomePageScenario.NavigationBarScenariosTest</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.69)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fb6a972ec2b9bd0a4b8caa9acf5e148, clickElement {id=6F13C026ECC92114B1EEE0C68C99A653_element_22}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53734/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3fb6a972ec2b9bd0a4b8caa9acf5e148)] -&gt; xpath: (//a[text()=&apos; Digital Cards &apos;])[1]]
-Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcf1d293cc202067fc0bf67569268b85, clickElement {id=74DDC9E53D92457DCE14165E9B3B01F6_element_22}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50475}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\Sapours\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50475/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fcf1d293cc202067fc0bf67569268b85)] -&gt; xpath: (//a[text()=&apos; Digital Cards &apos;])[1]]
+Session ID: fcf1d293cc202067fc0bf67569268b85
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -103,7 +102,8 @@ Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at commonScripting.SearchProduct.catogaryBrowseView(SearchProduct.java:45)
+	at object_Repo_BAY.HomePage_EleBAY.clickOnDigitalCards(HomePage_EleBAY.java:128)
+	at BAY_HomePageScenario.NavigationBarScenariosTest.clickOnDigitalCardsIcon(NavigationBarScenariosTest.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -130,17 +130,16 @@ Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace103433239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace103433239'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=116.0.5845.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+</pre></div><a href='#' onClick='toggleBox("stack-trace1140202235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1140202235'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.69)
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3fb6a972ec2b9bd0a4b8caa9acf5e148, clickElement {id=6F13C026ECC92114B1EEE0C68C99A653_element_22}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53734/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3fb6a972ec2b9bd0a4b8caa9acf5e148)] -&gt; xpath: (//a[text()=&apos; Digital Cards &apos;])[1]]
-Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcf1d293cc202067fc0bf67569268b85, clickElement {id=74DDC9E53D92457DCE14165E9B3B01F6_element_22}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50475}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\Sapours\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50475/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fcf1d293cc202067fc0bf67569268b85)] -&gt; xpath: (//a[text()=&apos; Digital Cards &apos;])[1]]
+Session ID: fcf1d293cc202067fc0bf67569268b85
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -157,7 +156,8 @@ Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at commonScripting.SearchProduct.catogaryBrowseView(SearchProduct.java:45)
+	at object_Repo_BAY.HomePage_EleBAY.clickOnDigitalCards(HomePage_EleBAY.java:128)
+	at BAY_HomePageScenario.NavigationBarScenariosTest.clickOnDigitalCardsIcon(NavigationBarScenariosTest.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -185,8 +185,8 @@ Session ID: 3fb6a972ec2b9bd0a4b8caa9acf5e148
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>commonScripting.SearchProduct@17f62e33</td></tr>
+<td>10</td>
+<td>BAY_HomePageScenario.NavigationBarScenariosTest@793f29ff</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,75 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T11:50:20 IST" name="Suite" finished-at="2023-08-31T11:53:19 IST" duration-ms="178560">
+  <suite started-at="2023-09-04T12:34:20 IST" name="Default suite" finished-at="2023-09-04T12:34:46 IST" duration-ms="25563">
     <groups>
     </groups>
-    <test started-at="2023-08-31T11:50:20 IST" name="Test" finished-at="2023-08-31T11:53:19 IST" duration-ms="178560">
-      <class name="commonScripting.SearchProduct">
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:20 IST" name="beforeConfig" finished-at="2023-08-31T11:50:25 IST" duration-ms="5260" status="PASS">
+    <test started-at="2023-09-04T12:34:20 IST" name="Default test" finished-at="2023-09-04T12:34:46 IST" duration-ms="25563">
+      <class name="BAY_HomePageScenario.NavigationBarScenariosTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:BAY_HomePageScenario.NavigationBarScenariosTest@793f29ff]" started-at="2023-09-04T12:34:20 IST" name="bcConfig" finished-at="2023-09-04T12:34:33 IST" duration-ms="12250" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeConfig -->
-        <test-method signature="catogaryBrowseView()[pri:1, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:25 IST" name="catogaryBrowseView" finished-at="2023-08-31T11:50:29 IST" duration-ms="3185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- catogaryBrowseView -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:29 IST" name="afterConfig" finished-at="2023-08-31T11:50:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfig -->
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:29 IST" name="beforeConfig" finished-at="2023-08-31T11:50:52 IST" duration-ms="23582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfig -->
-        <test-method signature="sortProductsTest()[pri:2, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:52 IST" name="sortProductsTest" finished-at="2023-08-31T11:50:58 IST" duration-ms="5737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortProductsTest -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:58 IST" name="afterConfig" finished-at="2023-08-31T11:50:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfig -->
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:50:58 IST" name="beforeConfig" finished-at="2023-08-31T11:51:29 IST" duration-ms="30954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfig -->
-        <test-method signature="searchProductAndCheckAvailability()[pri:3, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:29 IST" name="searchProductAndCheckAvailability" finished-at="2023-08-31T11:51:35 IST" duration-ms="6294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductAndCheckAvailability -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:35 IST" name="afterConfig" finished-at="2023-08-31T11:51:35 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfig -->
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:51:35 IST" name="beforeConfig" finished-at="2023-08-31T11:52:49 IST" duration-ms="73731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfig -->
-        <test-method signature="addToCart()[pri:4, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:52:49 IST" name="addToCart" finished-at="2023-08-31T11:53:00 IST" duration-ms="10777" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- bcConfig -->
+        <test-method signature="clickOnDigitalCardsIcon()[pri:2, instance:BAY_HomePageScenario.NavigationBarScenariosTest@793f29ff]" started-at="2023-09-04T12:34:33 IST" name="clickOnDigitalCardsIcon" finished-at="2023-09-04T12:34:43 IST" duration-ms="10239" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Add to cart ']"}
-  (Session info: chrome=116.0.5845.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.69)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [547a37bf3958bb3e78c1fcc06fc42c44, findElement {using=xpath, value=//*[text()=' Add to cart ']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 547a37bf3958bb3e78c1fcc06fc42c44]]>
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcf1d293cc202067fc0bf67569268b85, clickElement {id=74DDC9E53D92457DCE14165E9B3B01F6_element_22}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50475}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\Sapours\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50475/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fcf1d293cc202067fc0bf67569268b85)] -> xpath: (//a[text()=' Digital Cards '])[1]]
+Session ID: fcf1d293cc202067fc0bf67569268b85]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Add to cart ']"}
-  (Session info: chrome=116.0.5845.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.69)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [547a37bf3958bb3e78c1fcc06fc42c44, findElement {using=xpath, value=//*[text()=' Add to cart ']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Sapours\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 547a37bf3958bb3e78c1fcc06fc42c44
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcf1d293cc202067fc0bf67569268b85, clickElement {id=74DDC9E53D92457DCE14165E9B3B01F6_element_22}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50475}, msedge: {msedgedriverVersion: 116.0.1938.69 (62ef76ea75c4..., userDataDir: C:\Users\Sapours\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50475/devtoo..., se:cdpVersion: 116.0.1938.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (fcf1d293cc202067fc0bf67569268b85)] -> xpath: (//a[text()=' Digital Cards '])[1]]
+Session ID: fcf1d293cc202067fc0bf67569268b85
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -80,11 +44,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at commonScripting.SearchProduct.addToCart(SearchProduct.java:105)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at object_Repo_BAY.HomePage_EleBAY.clickOnDigitalCards(HomePage_EleBAY.java:128)
+at BAY_HomePageScenario.NavigationBarScenariosTest.clickOnDigitalCardsIcon(NavigationBarScenariosTest.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -99,35 +66,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:00 IST" name="afterConfig" finished-at="2023-08-31T11:53:00 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- clickOnDigitalCardsIcon -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:BAY_HomePageScenario.NavigationBarScenariosTest@793f29ff]" started-at="2023-09-04T12:34:43 IST" name="acConfig" finished-at="2023-09-04T12:34:46 IST" duration-ms="3015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterConfig -->
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:00 IST" name="beforeConfig" finished-at="2023-08-31T11:53:07 IST" duration-ms="7525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfig -->
-        <test-method signature="applyVouchersTest()[pri:5, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:07 IST" name="applyVouchersTest" finished-at="2023-08-31T11:53:19 IST" duration-ms="11447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyVouchersTest -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:commonScripting.SearchProduct@7674f035]" started-at="2023-08-31T11:53:19 IST" name="afterConfig" finished-at="2023-08-31T11:53:19 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfig -->
-      </class> <!-- commonScripting.SearchProduct -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- acConfig -->
+      </class> <!-- BAY_HomePageScenario.NavigationBarScenariosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

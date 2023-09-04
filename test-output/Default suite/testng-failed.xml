@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="commonScripting.SearchProduct">
+      <class name="BAY_HomePageScenario.NavigationBarScenariosTest">
         <methods>
-          <include name="afterConfig"/>
-          <include name="catogaryBrowseView"/>
-          <include name="beforeConfig"/>
+          <include name="clickOnDigitalCardsIcon"/>
+          <include name="acConfig"/>
+          <include name="bcConfig"/>
         </methods>
-      </class> <!-- commonScripting.SearchProduct -->
+      </class> <!-- BAY_HomePageScenario.NavigationBarScenariosTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

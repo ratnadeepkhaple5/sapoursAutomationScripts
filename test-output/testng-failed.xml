@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="commonScripting.SearchProduct">
+      <class name="BAY_HomePageScenario.NavigationBarScenariosTest">
         <methods>
-          <include name="afterConfig"/>
-          <include name="beforeConfig"/>
-          <include name="addToCart"/>
+          <include name="clickOnDigitalCardsIcon"/>
+          <include name="acConfig"/>
+          <include name="bcConfig"/>
         </methods>
-      </class> <!-- commonScripting.SearchProduct -->
+      </class> <!-- BAY_HomePageScenario.NavigationBarScenariosTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -139,4 +139,92 @@ public class HomePage_EleBAY{
 	public void clickOnMyCartIcon() {
 		myCartIcon.click();
 	}
+	
+	//footer elements
+	
+	@FindBy(xpath = "//*[text()='Help']")
+	private WebElement helpLink;
+	
+	@FindBy(xpath = "//*[text()='Contact Us']")
+	private WebElement contactUsLink;
+
+	@FindBy(xpath = "//*[text()='Return Policy']")
+	private WebElement returnPolicyLink;
+	
+	@FindBy(xpath = "//*[text()='Terms & Conditions']")
+	private WebElement termsConditionsLink;
+	
+	@FindBy(xpath = "//*[text()='FAQs']")
+	private WebElement faqLink;
+	
+	@FindBy(xpath = "//*[text()='About Us']")
+	private WebElement aboutUsLink;
+	
+	@FindBy(xpath = "//*[text()='Store Locator']")
+	private WebElement storeLocatorLink;
+	
+	@FindBy(xpath = "//*[text()='Site Map']")
+	private WebElement siteMapLink;
+
+	public WebElement getHelpLink() {
+		return helpLink;
+	}
+	
+	public WebElement getReturnPolicyLink() {
+		return returnPolicyLink;
+	}
+
+	public WebElement getTermsConditionsLink() {
+		return termsConditionsLink;
+	}
+
+	public WebElement getFaqLink() {
+		return faqLink;
+	}
+	
+	public WebElement getAboutUsLink() {
+		return aboutUsLink;
+	}
+	
+	public WebElement getStoreLocatorLink() {
+		return storeLocatorLink;
+	}
+	
+	public WebElement getSiteMapLink() {
+		return siteMapLink;
+	}
+	
+	public WebElement getContactUsLink() {
+		return contactUsLink;
+	}
+	
+	//business logic-footer
+	
+	public void clickOnHelpLink() {
+		helpLink.click();
+	}
+	public void clickOnReturnPolicyLink() {
+		returnPolicyLink.click();
+	}
+	public void clickOnFaqLink() {
+		faqLink.click();
+	}
+	public void clickOnAboutUsLink() {
+		aboutUsLink.click();
+	}
+	public void clickOnStoreLocatorLink() {
+		storeLocatorLink.click();
+	}
+	public void clickOnSiteMapLink() {
+		siteMapLink.click();
+	}
+	public void clickOnContactUsLink() {
+		contactUsLink.click();
+	}
+	public void clickOnTermsConditionsLink() {
+		termsConditionsLink.click();
+	}
+	
+	
 }
+
