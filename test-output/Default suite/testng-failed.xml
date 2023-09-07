@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BAY_HomePageScenario.NavigationBarScenariosTest">
+      <class name="bay_Automation.SortDropdownScenario">
         <methods>
-          <include name="clickOnDigitalCardsIcon"/>
-          <include name="acConfig"/>
-          <include name="bcConfig"/>
+          <include name="afertest"/>
+          <include name="beforeConfig"/>
+          <include name="sortProductsTest"/>
         </methods>
-      </class> <!-- BAY_HomePageScenario.NavigationBarScenariosTest -->
+      </class> <!-- bay_Automation.SortDropdownScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

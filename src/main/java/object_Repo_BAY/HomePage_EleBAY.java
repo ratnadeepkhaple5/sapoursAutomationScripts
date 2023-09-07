@@ -61,10 +61,10 @@ public class HomePage_EleBAY{
 	@FindBy(xpath = "//a[@id='navbarDropdown']")
 	private WebElement allCatagoiesIcon;
 
-	@FindBy(xpath = "(//a[text()=' Gift Cards '])[1]")
-	private WebElement giftCardsIcon;
+//	@FindBy(xpath = "(//a[text()=' Gift Cards '])[1]")
+//	private WebElement giftCardsIcon;
 
-	@FindBy(xpath = "(//a[text()=' Digital Cards '])[1]")
+	@FindBy(xpath = "(//a[text()=' Digital Cards '])[2]")
 	private WebElement digitalCardsIcon;
 
 	@FindBy(xpath = "(//a[text()=' Air Conditioners '])[1]")
@@ -89,9 +89,9 @@ public class HomePage_EleBAY{
 	public WebElement getAllCatagoiesIcon() {
 		return allCatagoiesIcon;
 	}
-	public WebElement getGiftCardsIcon() {
-		return giftCardsIcon;
-	}
+//	public WebElement getGiftCardsIcon() {
+//		return giftCardsIcon;
+//	}
 	public WebElement getDigitalCardsIcon() {
 		return digitalCardsIcon;
 	}
@@ -121,9 +121,9 @@ public class HomePage_EleBAY{
 	public void mouseOverOnAllCategories() {
 		allCatagoiesIcon.click();
 	}
-	public void clickOnGiftCards() {
-		giftCardsIcon.click();
-	}
+//	public void clickOnGiftCards() {
+//		giftCardsIcon.click();
+//	}
 	public void clickOnDigitalCards() {
 		digitalCardsIcon.click();
 	}
@@ -140,7 +140,9 @@ public class HomePage_EleBAY{
 		myCartIcon.click();
 	}
 	
-	//footer elements
+	/**
+	 * footer elements
+	 */
 	
 	@FindBy(xpath = "//*[text()='Help']")
 	private WebElement helpLink;
@@ -165,40 +167,63 @@ public class HomePage_EleBAY{
 	
 	@FindBy(xpath = "//*[text()='Site Map']")
 	private WebElement siteMapLink;
+	
+	@FindBy(id = "Youtube")
+	private WebElement youTubeLink;
+	
+	@FindBy(id = "Instagram")
+	private WebElement InstagramLink;
+	
+	@FindBy(id = "Linked In")
+	private WebElement LinkedInLink;
+	
+	@FindBy(id = "Facebook")
+	private WebElement FacebookLink;
 
+	@FindBy(id = "Twitter")
+	private WebElement TwitterLink;
+	
 	public WebElement getHelpLink() {
 		return helpLink;
-	}
-	
+	}	
 	public WebElement getReturnPolicyLink() {
 		return returnPolicyLink;
 	}
-
 	public WebElement getTermsConditionsLink() {
 		return termsConditionsLink;
 	}
-
 	public WebElement getFaqLink() {
 		return faqLink;
-	}
-	
+	}	
 	public WebElement getAboutUsLink() {
 		return aboutUsLink;
-	}
-	
+	}	
 	public WebElement getStoreLocatorLink() {
 		return storeLocatorLink;
-	}
-	
+	}	
 	public WebElement getSiteMapLink() {
 		return siteMapLink;
-	}
-	
+	}	
 	public WebElement getContactUsLink() {
 		return contactUsLink;
 	}
+	public WebElement TwitterLink() {
+		return TwitterLink;
+	}
+	public WebElement FacebookLink() {
+		return FacebookLink;
+	}
+	public WebElement LinkedInLink() {
+		return LinkedInLink;
+	}
+	public WebElement InstagramLink() {
+		return InstagramLink;
+	}
+	public WebElement youTubeLink() {
+		return youTubeLink;
+	}
 	
-	//business logic-footer
+//business logic-footer
 	
 	public void clickOnHelpLink() {
 		helpLink.click();
@@ -223,8 +248,22 @@ public class HomePage_EleBAY{
 	}
 	public void clickOnTermsConditionsLink() {
 		termsConditionsLink.click();
+	}	
+	public void clickOnTwitterLink() {
+		TwitterLink.click();
 	}
-	
+	public void clickOnInstagramLink() {
+		InstagramLink.click();	
+	}
+	public void clickOnyouTubeLink() {
+		youTubeLink.click();
+	}
+	public void clickOnLinkedInLink() {
+		LinkedInLink.click();
+	}
+	public void clickOnFacebookLink() {
+		FacebookLink.click();
+	}
 	
 }
 
