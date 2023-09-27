@@ -6,6 +6,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseClassBay {
@@ -16,7 +17,7 @@ public class BaseClassBay {
 	public WebdriverUtility wUtil=new WebdriverUtility();
 	public PropertyFileUtility pUtil=new PropertyFileUtility();
 	public JavaUtility jUtil=new JavaUtility();
-
+	public static WebDriver sDriver;
 	
 	@BeforeMethod
 	public void beforeConfig() throws IOException {
@@ -28,5 +29,12 @@ public class BaseClassBay {
 		
 		PropertyFileUtility putil=new PropertyFileUtility();
 		driver.get(putil.readDataFromPropertyFile("BAY"));
+		sDriver=driver;
+	}
+	
+	@AfterMethod
+	public void afterConfig() {
+		
+		driver.close();
 	}
 }

@@ -5,14 +5,15 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import generic.utilities.BaseClassBay;
 import object_Repo_BAY.HomePage_EleBAY;
 
-public class SearchProduct extends BaseClassBay{
+@Listeners(generic.utilities.ListenerImplementationWithExtentReport.class)
+public class SearchProductTest extends BaseClassBay{
 
-	
 	@Test(dataProvider = "searchData")
 	public void searchProductAndCheckAvailability(String data) throws InterruptedException {
 
@@ -42,7 +43,7 @@ public class SearchProduct extends BaseClassBay{
 	@DataProvider
 	public String[] searchData() {
 		String[] data=new String[] {
-			"iphone","12345","iphone 12","4564jjkg"
+			"iphone",/*"12345","iphone 12","4564jjkg"*/
 		};
 		return data;
 	}

@@ -1,13 +1,14 @@
 package BAY_HomePageScenario;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import generic.utilities.BaseClass;
 import object_Repo_BAY.AllCategories_Elements;
 import object_Repo_BAY.HomePage_EleBAY;
 
-
+@Listeners(generic.utilities.ListenerImplementationWithExtentReport.class)
 public class AllCategoriesScenarioTest extends BaseClass{
 
 	@Test(priority = 1)

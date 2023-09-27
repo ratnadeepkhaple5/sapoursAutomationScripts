@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bay_Automation.SortDropdownScenario">
+      <class name="bay_Automation.SearchProduct">
         <methods>
-          <include name="afertest"/>
           <include name="beforeConfig"/>
-          <include name="sortProductsTest"/>
+          <include name="afterConfig"/>
+          <include name="searchProductAndCheckAvailability" invocation-numbers="0"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- bay_Automation.SortDropdownScenario -->
+      </class> <!-- bay_Automation.SearchProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
