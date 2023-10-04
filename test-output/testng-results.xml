@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Apple iPhone 12 256GB (Eco-Device) – White]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-09-26T15:00:18 IST" name="Default suite" finished-at="2023-09-26T15:00:57 IST" duration-ms="39463">
+  <suite started-at="2023-10-04T15:22:22 IST" name="Default suite" finished-at="2023-10-04T15:22:32 IST" duration-ms="9781">
     <groups>
     </groups>
-    <test started-at="2023-09-26T15:00:18 IST" name="Default test" finished-at="2023-09-26T15:00:57 IST" duration-ms="39463">
-      <class name="bay_Automation.PDPScenarioTest">
-        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:bay_Automation.PDPScenarioTest@742ff096]" started-at="2023-09-26T15:00:18 IST" name="beforeConfig" finished-at="2023-09-26T15:00:51 IST" duration-ms="33254" status="PASS">
+    <test started-at="2023-10-04T15:22:22 IST" name="Default test" finished-at="2023-10-04T15:22:32 IST" duration-ms="9781">
+      <class name="bay_Automation.SearchProductTest">
+        <test-method is-config="true" signature="beforeConfig()[pri:0, instance:bay_Automation.SearchProductTest@1750fbeb]" started-at="2023-10-04T15:22:22 IST" name="beforeConfig" finished-at="2023-10-04T15:22:29 IST" duration-ms="6685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfig -->
-        <test-method signature="getProductName(java.lang.String)[pri:0, instance:bay_Automation.PDPScenarioTest@742ff096]" started-at="2023-09-26T15:00:51 IST" name="getProductName" data-provider="productList" finished-at="2023-09-26T15:00:57 IST" duration-ms="5478" status="PASS">
+        <test-method signature="searchProductAndCheckAvailability(java.lang.String)[pri:0, instance:bay_Automation.SearchProductTest@1750fbeb]" started-at="2023-10-04T15:22:29 IST" name="searchProductAndCheckAvailability" data-provider="searchData" finished-at="2023-10-04T15:22:32 IST" duration-ms="2486" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[(//a[@class='cx-product-name'])[2]]]>
+                <![CDATA[iphone]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Apple iPhone 12 256GB (Eco-Device) – White]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getProductName -->
-        <test-method is-config="true" signature="afterConfig()[pri:0, instance:bay_Automation.PDPScenarioTest@742ff096]" started-at="2023-09-26T15:00:57 IST" name="afterConfig" finished-at="2023-09-26T15:00:57 IST" duration-ms="370" status="PASS">
+        </test-method> <!-- searchProductAndCheckAvailability -->
+        <test-method is-config="true" signature="afterConfig()[pri:0, instance:bay_Automation.SearchProductTest@1750fbeb]" started-at="2023-10-04T15:22:32 IST" name="afterConfig" finished-at="2023-10-04T15:22:32 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfig -->
-      </class> <!-- bay_Automation.PDPScenarioTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:bay_Automation.SearchProductTest@1750fbeb]" started-at="2023-10-04T15:22:32 IST" name="afterTest" finished-at="2023-10-04T15:22:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- bay_Automation.SearchProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
