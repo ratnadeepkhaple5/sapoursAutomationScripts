@@ -92,6 +92,9 @@
 
  </dependencies>
  
+	<profiles>
+		<profile>
+			<id>sanityCheck</id>		
 	<build>
 		<plugins>
 			<plugin>
@@ -105,7 +108,9 @@
       		     </configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>			
+		</profile>
+	</profiles>
  
  
 </project>
