@@ -20,6 +20,7 @@ public class ListenerImplementationWithExtentReport implements ITestListener{
 
 	public ExtentReports reports;
 	public static ExtentTest test;
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 

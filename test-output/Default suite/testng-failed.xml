@@ -5,8 +5,8 @@
     <classes>
       <class name="bay_Automation.SearchProductTest">
         <methods>
-          <include name="beforeConfig"/>
           <include name="afterTest"/>
+          <include name="beforeConfig"/>
           <include name="searchProductAndCheckAvailability" invocation-numbers="0"/>
           <include name="afterConfig"/>
         </methods>
